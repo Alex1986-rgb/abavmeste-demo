@@ -1,3 +1,173 @@
+/* Локальные шрифты (подмножества латиницы и кириллицы) */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/inter-400-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/inter-400-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/inter-400-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/inter-500-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/inter-500-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/inter-500-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/inter-600-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/inter-600-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/inter-600-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 650;
+  font-display: swap;
+  src: url(/fonts/inter-650-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 650;
+  font-display: swap;
+  src: url(/fonts/inter-650-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 650;
+  font-display: swap;
+  src: url(/fonts/inter-650-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/manrope-600-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/manrope-600-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/manrope-600-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/manrope-700-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/manrope-700-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/manrope-700-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/manrope-800-cyr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/manrope-800-cyr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/manrope-800-lat.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root{
   --ink:#1d1a24;
   --ink-2:#514b5e;
@@ -51,7 +221,7 @@ body{
 }
 body::before{
   content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
-  background:url("/abavmeste-demo/img/gen/bg-paper.jpg") center/cover no-repeat;
+  background:url("/abavmeste-demo/img/gen/bg-paper.webp") center/cover no-repeat;
   opacity:.35;mix-blend-mode:multiply;
 }
 body>*{position:relative;z-index:1}
@@ -69,6 +239,13 @@ ul,ol{margin:0 0 1rem;padding-left:1.15rem}
 li{margin:.3rem 0}
 strong{font-weight:650}
 :focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{
+  position:absolute;left:1rem;top:-4rem;z-index:100;background:var(--card);color:var(--teal-2);
+  font-family:Manrope,sans-serif;font-weight:700;padding:.8rem 1.2rem;border-radius:0 0 14px 14px;
+  box-shadow:var(--shadow-lg);text-decoration:none;transition:top .2s ease;
+}
+.skip:focus{top:0}
 
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--wrap-pad)}
 .narrow{max-width:48rem}
@@ -86,24 +263,24 @@ section{padding:var(--sec-y) 0;position:relative}
   content:"";position:absolute;inset:0;z-index:-1;
   background:linear-gradient(to bottom,var(--ground) 0%,rgba(250,246,241,.35) 18%,rgba(250,246,241,.35) 82%,var(--ground) 100%);
 }
-.art-process::before{background-image:url("/abavmeste-demo/img/gen/bg-process.jpg")}
-.art-price::before{background-image:url("/abavmeste-demo/img/gen/bg-price.jpg")}
-.art-team::before{background-image:url("/abavmeste-demo/img/gen/bg-team.jpg")}
-.art-faq::before{background-image:url("/abavmeste-demo/img/gen/bg-faq.jpg")}
-.art-contacts::before{background-image:url("/abavmeste-demo/img/gen/bg-contacts.jpg")}
-.art-quiz::before{background-image:url("/abavmeste-demo/img/gen/bg-quote.jpg")}
-.art-section::before{background-image:url("/abavmeste-demo/img/gen/bg-section.jpg")}
+.art-process::before{background-image:url("/abavmeste-demo/img/gen/bg-process.webp")}
+.art-price::before{background-image:url("/abavmeste-demo/img/gen/bg-price.webp")}
+.art-team::before{background-image:url("/abavmeste-demo/img/gen/bg-team.webp")}
+.art-faq::before{background-image:url("/abavmeste-demo/img/gen/bg-faq.webp")}
+.art-contacts::before{background-image:url("/abavmeste-demo/img/gen/bg-contacts.webp")}
+.art-quiz::before{background-image:url("/abavmeste-demo/img/gen/bg-quote.webp")}
+.art-section::before{background-image:url("/abavmeste-demo/img/gen/bg-section.webp")}
 
 .sec-wash{position:relative;background:var(--ground)}
 .sec-wash::before{
   content:"";position:absolute;inset:0;z-index:0;
-  background:url("/abavmeste-demo/img/gen/bg-section.jpg") center/cover no-repeat;opacity:.55;
+  background:url("/abavmeste-demo/img/gen/bg-section.webp") center/cover no-repeat;opacity:.55;
 }
 .sec-wash>*{position:relative;z-index:1}
 .sec-quiz{position:relative;background:var(--ground-2)}
 .sec-quiz::before{
   content:"";position:absolute;inset:0;z-index:0;
-  background:url("/abavmeste-demo/img/gen/bg-quote.jpg") center/cover no-repeat;opacity:.6;
+  background:url("/abavmeste-demo/img/gen/bg-quote.webp") center/cover no-repeat;opacity:.6;
 }
 .sec-quiz>*{position:relative;z-index:1}
 .sec-ink{background:var(--teal-2);color:#fff}
@@ -185,13 +362,13 @@ section{padding:var(--sec-y) 0;position:relative}
 .hero{position:relative;overflow:hidden;padding:clamp(2.5rem,5.5vw,4.5rem) 0 clamp(2.5rem,5vw,4rem)}
 .hero::after{
   content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-  background:url("/abavmeste-demo/img/gen/bg-hero.jpg") center/cover no-repeat;opacity:.34;
+  background:url("/abavmeste-demo/img/gen/bg-hero.webp") center/cover no-repeat;opacity:.34;
   -webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 68%,transparent 100%);
           mask-image:linear-gradient(to bottom,#000 0%,#000 68%,transparent 100%);
 }
 .hero-main::after{
   content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-  background:url("/abavmeste-demo/img/gen/bg-hero-main.jpg") center/cover no-repeat;opacity:.36;
+  background:url("/abavmeste-demo/img/gen/bg-hero-main.webp") center/cover no-repeat;opacity:.36;
   -webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%);
           mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%);
 }
@@ -351,7 +528,7 @@ details.qa .qa-body{padding:0 clamp(1rem,2vw,1.4rem) 1.2rem;color:var(--ink-2)}
 }
 .cta-box h2{color:#fff}
 .cta-box p{color:#cfe6e1}
-.cta-box{background-image:url("/abavmeste-demo/img/gen/bg-cta.jpg");background-size:cover;background-position:center}
+.cta-box{background-image:url("/abavmeste-demo/img/gen/bg-cta.webp");background-size:cover;background-position:center}
 .cta-box::before{content:"";position:absolute;inset:0;background:rgba(11,78,70,.84)}
 .cta-box .btn-2{background:transparent;--fg:#fff;--bd:rgba(255,255,255,.45)}
 .cta-box .btn-2:hover{--bd:#fff}
@@ -369,7 +546,7 @@ details.qa .qa-body{padding:0 clamp(1rem,2vw,1.4rem) 1.2rem;color:var(--ink-2)}
 @media (max-width:900px){.ftr{padding-bottom:6.5rem}}
 .ftr a{color:#e8e2f0;text-decoration:none}
 .ftr a:hover{color:var(--sun)}
-.ftr-in{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:clamp(1.4rem,3vw,2.5rem)}
+.ftr-in{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr 1.1fr;gap:clamp(1.2rem,2.4vw,2.2rem)}
 .ftr h4{color:#fff;font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:.9rem;color:#8d8599}
 .ftr ul{list-style:none;padding:0;margin:0;display:grid;gap:var(--sp-2)}
 .ftr-b{border-top:1px solid rgba(255,255,255,.1);margin-top:var(--sp-6);padding-top:var(--sp-4);font-size:.84rem;color:#8d8599;display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;justify-content:space-between}
@@ -487,6 +664,21 @@ a.car-card:hover .car-img img{transform:scale(1.05)}
 .doc-org{font-size:.9rem;color:var(--ink-2)}
 .doc-meta{margin-top:auto;padding-top:.5rem;font-size:.85rem;color:var(--ink-3);display:flex;gap:.7rem;flex-wrap:wrap}
 
+/* Карта — грузится по клику */
+.map{position:relative;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);background:var(--ground-2);aspect-ratio:16/9;min-height:18rem}
+.map iframe{width:100%;height:100%;border:0;display:block}
+.map-plug{
+  width:100%;height:100%;min-height:18rem;border:0;cursor:pointer;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:.5rem;font:inherit;color:var(--ink);
+  background:var(--teal-soft) url("/abavmeste-demo/img/gen/bg-contacts.webp") center/cover;
+}
+.map-plug b{font-family:Manrope,sans-serif;font-size:1.1rem}
+.map-ico{
+  width:3.6rem;height:3.6rem;border-radius:50%;background:var(--card);color:var(--teal-2);
+  display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-lg);
+}
+.map-plug:hover .map-ico{transform:translateY(-2px)}
+
 /* Разное */
 .split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,3.4vw,3.2rem);align-items:center}
 .rounded{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow-lg)}
@@ -517,7 +709,7 @@ a.car-card:hover .car-img img{transform:scale(1.05)}
 }
 /* планшет в альбоме: контент не должен разъезжаться в четыре колонки */
 @media (max-width:1180px) and (min-width:901px){
-  .ftr-in{grid-template-columns:1.4fr 1fr 1fr;grid-auto-rows:auto}
+  .ftr-in{grid-template-columns:repeat(3,1fr);grid-auto-rows:auto}
   .ftr-in>div:last-child{grid-column:span 3}
 }
 @media (max-width:900px){
@@ -654,7 +846,7 @@ a.car-card:hover .car-img img{transform:scale(1.05)}
 
 /* подвал на фактуре */
 .ftr{position:relative;isolation:isolate;overflow:hidden}
-.ftr::before{content:"";position:absolute;inset:0;z-index:-1;background:url("/abavmeste-demo/img/gen/bg-footer.jpg") center/cover no-repeat;opacity:.55}
+.ftr::before{content:"";position:absolute;inset:0;z-index:-1;background:url("/abavmeste-demo/img/gen/bg-footer.webp") center/cover no-repeat;opacity:.55}
 .ftr-mark{position:absolute;right:-2rem;bottom:-3rem;opacity:.06;pointer-events:none}
 
 @media (prefers-reduced-motion:reduce){
