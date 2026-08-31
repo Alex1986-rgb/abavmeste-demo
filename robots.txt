@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Витрина для показа заказчику. Боевой сайт — https://abavmeste.ru
