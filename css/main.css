@@ -731,6 +731,11 @@ a.car-card:hover .car-img img{transform:scale(1.05)}
 .tips-box li::before{content:"→";font-weight:700;color:#8a5a11;flex:none}
 .post-cta{background:var(--teal-soft);border-radius:var(--r-lg);padding:var(--pad-box);margin-top:var(--sp-6)}
 
+.post-table{margin:var(--sp-4) 0}
+.post-table table{min-width:0;font-size:.98rem}
+.post .note{margin:var(--sp-4) 0;max-width:none}
+.post .list-check{margin:var(--sp-3) 0 var(--sp-4)}
+
 /* ── Документы ──────────────────────────────────────────── */
 .docs{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:var(--gap)}
 .doc{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .18s ease,box-shadow .18s ease}
