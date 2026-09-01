@@ -151,6 +151,15 @@
   </div>
 </section>
 
+<section style="padding-top:0;padding-bottom:0">
+  <div class="wrap"><div class="post">
+    <nav class="post-nav" aria-label="Статьи направления">
+        <a class="post-nav-a" href="/abavmeste-demo/blog/vb-mapp-diagnostika/"><span>← Предыдущая</span><b>VB-MAPP и ABLLS-R: зачем программе диагностика навыков</b></a>
+        <a class="post-nav-a post-nav-next" href="/abavmeste-demo/blog/oshibki-pervogo-mesyaca/"><span>Следующая →</span><b>Пять ошибок родителей в первый месяц программы</b></a>
+      </nav>
+  </div></div>
+</section>
+
 
 <section class="sec-ground carousel-sec">
   <div class="wrap">
@@ -480,10 +489,13 @@
           res.classList.add('on');
           var keys=ans.map(function(a){return a.key;});
           var map={speech:['Запуск речи','/uslugi/zapusk-rechi/'],behavior:['Коррекция проблемного поведения','/uslugi/korrekciya-povedeniya/'],logo:['Логопед-дефектолог','/uslugi/logoped-defektolog/'],group:['Коммуникативные мини-группы','/uslugi/mini-gruppy/'],esdm:['Денверская модель (ESDM)','/uslugi/esdm/'],aba:['Индивидуальная ABA-терапия','/uslugi/aba-terapiya/']};
+          var artMap={speech:'/blog/rebenok-ne-govorit-2-3-goda/',behavior:'/blog/pochemu-isterika-eto-soobshchenie/',logo:'/blog/dizartriya-alaliya-zrr/',group:'/blog/gotov-li-rebenok-k-sadu/',esdm:'/blog/rannee-vmeshatelstvo-pochemu-vazhno/',aba:'/blog/vb-mapp-diagnostika/'};
           var pick=map[keys[1]]||map[keys[0]]||map.aba;
           if(keys[0]==='esdm'&&(keys[1]==='speech'||keys[1]==='aba'))pick=map.esdm;
           res.querySelector('[data-res-name]').textContent=pick[0];
           res.querySelector('[data-res-link]').href=pick[1];
+          var artA=res.querySelector('[data-res-article]');
+          if(artA) artA.href=artMap[keys[1]]||artMap[keys[0]]||artMap.aba;
           var line=ans.map(function(a){return a.label;}).join(' · ');
           try{sessionStorage.setItem('vz_quiz',line+' → '+pick[0]);}catch(_){}
           res.querySelector('[data-res-echo]').textContent=line;
